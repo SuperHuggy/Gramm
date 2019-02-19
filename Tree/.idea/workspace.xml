@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc6178b4-9df1-4d66-afd3-74bf76f0169d" name="Default Changelist" comment="It works. I don't now how, but it works.">
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/artifacts/ConsoleKarch_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/ConsoleKarch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/artifacts/ConsoleKarch_jar/ConsoleKarch.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/ConsoleKarch.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/com/company/AlGem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/Gramm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/KarchOne_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/KarchOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/KarchOne_jar/KarchOne.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/KarchOne.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/libraries/Jama_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/Temp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/META-INF/Temp.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/Proga.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/Proga2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/pr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Temp/src/Proga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="275" column="35" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>key</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Tree.java" />
+        <option value="$PROJECT_DIR$/src/BinTree.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="283" />
+    <option name="width" value="1299" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547999900655" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BinTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinTree" />
+      <module name="Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Tree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BinTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc6178b4-9df1-4d66-afd3-74bf76f0169d" name="Default Changelist" comment="" />
+      <created>1547919346556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547919346556</updated>
+      <workItem from="1547919348017" duration="9599000" />
+      <workItem from="1547980403899" duration="16689000" />
+      <workItem from="1548000073375" duration="1375000" />
+      <workItem from="1548002925010" duration="10254000" />
+      <workItem from="1548045603667" duration="713000" />
+      <workItem from="1548050216724" duration="3219000" />
+      <workItem from="1550558871314" duration="592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42441000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="It works. I don't now how, but it works." />
+    <option name="LAST_COMMIT_MESSAGE" value="It works. I don't now how, but it works." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="275" column="35" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

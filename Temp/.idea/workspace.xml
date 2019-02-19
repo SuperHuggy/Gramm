@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/artifacts/ConsoleKarch_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/ConsoleKarch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/artifacts/ConsoleKarch_jar/ConsoleKarch.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/ConsoleKarch.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/com/company/AlGem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/Gramm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/KarchOne_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/KarchOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/KarchOne_jar/KarchOne.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/KarchOne.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jama_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Temp/META-INF/Temp.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Temp/Proga.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Temp/Proga2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Temp/pr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Proga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/Tree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/BinTree$TreeElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/BinTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/src/BinTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/src/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Proga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Parsing</find>
+      <find>h</find>
+      <find>inver</find>
+      <find>LUDecomposition</find>
+      <find>arr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>l</replace>
+      <replace>arr1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Mane.java" />
+        <option value="$PROJECT_DIR$/src/StupidMen.java" />
+        <option value="$PROJECT_DIR$/src/ImplExtDemo.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Matrice3.java" />
+        <option value="$PROJECT_DIR$/src/Matric.java" />
+        <option value="$PROJECT_DIR$/src/MNP.java" />
+        <option value="$PROJECT_DIR$/src/Matrice2.java" />
+        <option value="$PROJECT_DIR$/src/Mt.java" />
+        <option value="$PROJECT_DIR$/src/Matrice1.java" />
+        <option value="$PROJECT_DIR$/src/Proga.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Temp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550556633822" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Proga">
+    <configuration name="Matrice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrice1" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Matrice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrice2" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Matrice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Matrice3" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Proga" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proga2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Proga2" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Proga" />
+        <item itemvalue="Application.Proga2" />
+        <item itemvalue="Application.Matrice3" />
+        <item itemvalue="Application.Matrice2" />
+        <item itemvalue="Application.Matrice1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="" />
+      <created>1547817848916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547817848916</updated>
+      <workItem from="1547817855953" duration="810000" />
+      <workItem from="1547827352440" duration="21686000" />
+      <workItem from="1547890999254" duration="4865000" />
+      <workItem from="1547915340391" duration="1699000" />
+      <workItem from="1548917468636" duration="92000" />
+      <workItem from="1549610995416" duration="4004000" />
+      <workItem from="1549724420311" duration="5226000" />
+      <workItem from="1549745810991" duration="5940000" />
+      <workItem from="1549783324642" duration="19410000" />
+      <workItem from="1549950411113" duration="4368000" />
+      <workItem from="1550152864473" duration="534000" />
+      <workItem from="1550165392312" duration="3886000" />
+      <workItem from="1550169877934" duration="1231000" />
+      <workItem from="1550214771070" duration="3940000" />
+      <workItem from="1550530651046" duration="2990000" />
+      <workItem from="1550554812831" duration="1405000" />
+      <workItem from="1550558747331" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="82207000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3272147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21911038" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32960895" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32960895" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Collections.class" />
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Arrays.class" />
+    <entry file="file://$PROJECT_DIR$/src/StupidMen.java" />
+    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/lang/Math.class" />
+    <entry file="file://$PROJECT_DIR$/src/ImplExtDemo.java" />
+    <entry file="jar://$USER_HOME$/Загрузки/Новая папка/Jama-1.0.3.jar!/Jama/Matrix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="549" column="26" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrice3.java" />
+    <entry file="file://$PROJECT_DIR$/src/Matrice2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Mt.java" />
+    <entry file="file://$PROJECT_DIR$/src/Matrice1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Proga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Temp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Jama-1.0.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
