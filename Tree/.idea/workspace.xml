@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6178b4-9df1-4d66-afd3-74bf76f0169d" name="Default Changelist" comment="It works. I don't now how, but it works.">
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/artifacts/ConsoleKarch_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/ConsoleKarch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/artifacts/ConsoleKarch_jar/ConsoleKarch.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/ConsoleKarch.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/com/company/AlGem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/Gramm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/KarchOne_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/KarchOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/KarchOne_jar/KarchOne.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/KarchOne.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/libraries/Jama_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/Temp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/META-INF/Temp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/Proga.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/Proga2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/out/production/Temp/pr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Temp/src/Proga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,17 +16,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="4035">
               <caret line="275" column="35" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Gramm/src/Gramm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -136,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,6 +144,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,17 +205,27 @@
       <workItem from="1548002925010" duration="10254000" />
       <workItem from="1548045603667" duration="713000" />
       <workItem from="1548050216724" duration="3219000" />
-      <workItem from="1550558871314" duration="592000" />
+      <workItem from="1550558871314" duration="792000" />
+      <workItem from="1550606936082" duration="11000" />
     </task>
+    <task id="LOCAL-00001" summary="It works. I don't now how, but it works.">
+      <created>1550559639631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550559639631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42441000" />
+    <option name="totallyTimeSpent" value="42652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26656026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,7 +234,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,7 +244,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294893" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,7 +298,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BinTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="4035">
           <caret line="275" column="35" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
         </state>
       </provider>
@@ -306,6 +307,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gramm/src/Gramm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
         </state>
       </provider>
     </entry>
