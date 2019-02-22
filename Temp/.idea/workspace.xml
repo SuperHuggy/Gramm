@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="Просто загружаю всё что есть...">
-      <change afterPath="$PROJECT_DIR$/src/Matrice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gramm/src/Gramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
+    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp/Proga.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp/Proga2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Temp/pr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +42,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Matrice1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="776">
               <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +74,6 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -147,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550822090821" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550822466310" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,12 +233,20 @@
       <workItem from="1550530651046" duration="2990000" />
       <workItem from="1550554812831" duration="1405000" />
       <workItem from="1550558747331" duration="121000" />
-      <workItem from="1550821293451" duration="788000" />
+      <workItem from="1550821293451" duration="1040000" />
     </task>
+    <task id="LOCAL-00001" summary="Просто загружаю всё что есть...">
+      <created>1550822099045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550822099045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82995000" />
+    <option name="totallyTimeSpent" value="83247000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,7 +260,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33280128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33280128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,7 +279,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294893" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -331,7 +331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Matrice1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="776">
           <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
