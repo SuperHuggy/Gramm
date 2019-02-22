@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/artifacts/ConsoleKarch_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/ConsoleKarch.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/artifacts/ConsoleKarch_jar/ConsoleKarch.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/ConsoleKarch.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/out/production/ConsoleKarch/com/company/AlGem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleKarch/src/com/company/AlGem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/Gramm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/JavaFXApp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/artifacts/KarchOne_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/KarchOne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/JavaFXApp/JavaFXApp.jnlp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/artifacts/KarchOne_jar/KarchOne.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/KarchOne.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/out/production/KarchOne/sample/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../KarchOne/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Jama_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Temp/META-INF/Temp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Temp/Proga.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Temp/Proga2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Temp/pr.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Proga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/Tree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/BinTree$TreeElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/BinTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/src/BinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/src/Main.java" afterDir="false" />
+    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="Просто загружаю всё что есть...">
+      <change afterPath="$PROJECT_DIR$/src/Matrice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gramm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gramm/src/Gramm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gramm/src/Gramm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Temp/Proga.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Temp/Proga2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Temp/pr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,14 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Proga.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="45">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Matrice1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,6 +81,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -142,9 +95,10 @@
         <option value="$PROJECT_DIR$/src/Matric.java" />
         <option value="$PROJECT_DIR$/src/MNP.java" />
         <option value="$PROJECT_DIR$/src/Matrice2.java" />
+        <option value="$PROJECT_DIR$/src/Proga.java" />
+        <option value="$PROJECT_DIR$/src/Mt2.java" />
         <option value="$PROJECT_DIR$/src/Mt.java" />
         <option value="$PROJECT_DIR$/src/Matrice1.java" />
-        <option value="$PROJECT_DIR$/src/Proga.java" />
       </list>
     </option>
   </component>
@@ -166,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,12 +141,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550556633822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550822090821" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,8 +169,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Proga">
-    <configuration name="Matrice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Matrice1">
+    <configuration name="Matrice1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Matrice1" />
       <module name="Temp" />
       <method v="2">
@@ -257,7 +211,6 @@
         <item itemvalue="Application.Proga2" />
         <item itemvalue="Application.Matrice3" />
         <item itemvalue="Application.Matrice2" />
-        <item itemvalue="Application.Matrice1" />
       </list>
     </recent_temporary>
   </component>
@@ -288,11 +241,12 @@
       <workItem from="1550530651046" duration="2990000" />
       <workItem from="1550554812831" duration="1405000" />
       <workItem from="1550558747331" duration="121000" />
+      <workItem from="1550821293451" duration="788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82207000" />
+    <option name="totallyTimeSpent" value="82995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,7 +260,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3272147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33280128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21911038" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21911038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,6 +294,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Просто загружаю всё что есть..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Просто загружаю всё что есть..." />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Collections.class" />
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Arrays.class" />
@@ -360,13 +319,22 @@
     <entry file="file://$PROJECT_DIR$/src/Matrice2.java" />
     <entry file="file://$PROJECT_DIR$/src/Mt.java" />
     <entry file="file://$PROJECT_DIR$/src/Matrice1.java" />
-    <entry file="file://$PROJECT_DIR$/src/Proga.java">
+    <entry file="file://$PROJECT_DIR$/src/Mt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="45">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Matrice1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="86" column="18" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
