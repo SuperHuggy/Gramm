@@ -4,21 +4,39 @@ import java.util.Arrays;
 
 public class AlGem {
 
+    //Демонстрация работы
     public static void main(String[] args)
     {
-        double e=0.005;
+        double e = 0.05;
         delegetable u = x -> (Math.pow(Math.E,-x/Math.sqrt(e))-Math.pow(Math.E,(x-2)/Math.sqrt(e)))/(1-Math.pow(Math.E,-2/Math.sqrt(e)));
-        double[] X=Raznostn(0, 1, 10,x -> 1/e,x->0,u.fun(0),u.fun(1));
-        System.out.println(Arrays.toString(X));
-        System.out.println(Error(X,u,10,u.fun(0),u.fun(1)));
+        try
+        {
+            double[] Y = Raznostn(0, 1, 10, x -> 1 / e, x -> 0, u.fun(0), u.fun(1));
+            System.out.println(Arrays.toString(Y));
+            System.out.println(Error(Y, u, 0, 1));
+        } catch (Exception ex)
+        {
+            System.out.println(ex.getMessage());
+        }
     }
 
-    public static double[] Progon(double[] a,double[] b,double[] c, double[] f)
+    /*Метод прогонки для решения системы уравнений с трёхдиагональной матрицей.
+     *(Работает только для матриц с диагональным преобладанием)
+     *На вход подаются массивы содержащие элементы диагоналей и массив содержащий вектор коэффицентов правой части уравнений.
+     *При вводе требуется доопределить первый элемент нижней диагонали и последний элемент верхней диагонали любыми числами.
+     *Результатом работы является вектор решений системы уравнений*/
+    public static double[] Progon(double[] a, double[] b, double[] c, double[] f) throws Exception
     {
         int n=a.length;
+        if (n != b.length || n != c.length || n != f.length)
+            throw new Exception("Длина массивов не совпадает(При необходимости доопределите a(0) и c(n-1) нулями)");
         double[] B=b.clone(),F=f.clone();
+        if (Math.abs(b[0]) < Math.abs(c[0]))
+            throw new Exception("Отсутствует диагональное преобладание");
         for(int i=1;i<n;i++)
         {
+            if (Math.abs(b[i]) < Math.abs(c[i]) + Math.abs(a[i]))
+                throw new Exception("Отсутствует диагональное преобладание");
             B[i] -= c[i - 1] * a[i] / B[i - 1];
             F[i]-=F[i-1]*a[i] / B[i - 1];
         }
@@ -29,9 +47,14 @@ public class AlGem {
         return x;
     }
 
-    public static double[] Raznostn(double st,double end,int n, delegetable q,delegetable F,double ua,double ub)
+    /*Метод решения Краевых задач для обыкновенных дифференциальных уравнений конечно-разностной схемой.
+     *На вход подаются координаты концов отрезка, количество узлов, функции q и f, значения искомой функции на краях отрезка
+     *Результатом работы является массив(размера n) приближенных значений функции в узлах*/
+    public static double[] Raznostn(double st, double end, int n, delegetable q, delegetable F, double ua, double ub) throws Exception
     {
-        double h=(end-st)/n,buf=st;
+        if (st == end || n == 0)
+            throw new Exception("Некорректный ввод");
+        double h = (end - st) / n, buf = st;
         n--;
         double[] a=new double[n],b=new double[n],c=new double[n],f=new double[n];
         for(int i=0;i<n;i++)
@@ -47,9 +70,12 @@ public class AlGem {
         return Progon(a,b,c,f);
     }
 
-    public static double Error(double[] y, delegetable u,int n,double st,double end)
+    public static double Error(double[] y, delegetable u, double st, double end) throws Exception
     {
-        double max=0,h=(end-st)/n,buf=st;
+        if (st == end || y.length == 0)
+            throw new Exception("Некорректный ввод");
+        int n = y.length;
+        double max = 0, h = (end - st) / (n + 1), buf = st;
         n--;
         for(int i=0;i<n;i++)
         {
@@ -98,8 +124,8 @@ public class AlGem {
     {
         int n=A.length;
         double[] buf;
-        double Buf=0,det=1;
-        int max=0;
+        double det = 1;
+        int max;
         for(int i=0;i<n;i++)
         {
             max=i;
