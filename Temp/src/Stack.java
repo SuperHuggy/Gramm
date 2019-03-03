@@ -1,49 +1,51 @@
-import java.util.EmptyStackException;
 import java.util.Vector;
 
-public
-class Stack<E>
+public class Stack<E>
 {
-    E[] mem;
+    private Vector<E> data;
 
-    public Stack() {
-        mem = new E[];
+    Stack()
+    {
+        data = new Vector<>();
     }
 
-    public E push(E item) {
-        addElement(item);
-
-        return item;
+    public void add(E e)
+    {
+        data.add(e);
     }
 
-    public synchronized E pop() {
-        E       obj;
-        int     len = size();
-
-        obj = peek();
-        removeElementAt(len - 1);
-
-        return obj;
+    public E remove()
+    {
+        return data.remove(data.size() - 1);
     }
 
-    public synchronized E peek() {
-        int     len = size();
-
-        if (len == 0)
-            throw new EmptyStackException();
-        return elementAt(len - 1);
+    public E firstElement()
+    {
+        return data.lastElement();
     }
 
-    public boolean empty() {
-        return size() == 0;
+    public boolean isEmpty()
+    {
+        return data.isEmpty();
     }
 
-    public synchronized int search(Object o) {
-        int i = lastIndexOf(o);
-
-        if (i >= 0) {
-            return size() - i;
+    public E search(E e)
+    {
+        Stack<E> buf = this.clone();
+        E Buf;
+        while (!buf.isEmpty())
+        {
+            Buf = buf.remove();
+            if (Buf.equals(e))
+                return Buf;
         }
-        return -1;
+        return null;
+    }
+
+    public Stack<E> clone()
+    {
+        Stack<E> buf = new Stack<>();
+        buf.data = (Vector<E>) this.data.clone();
+        return buf;
     }
 }

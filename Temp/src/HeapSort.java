@@ -34,22 +34,22 @@ public class HeapSort
         }
         return arr;
     }
+
+    public static double[] HeapSort(double[] arg)
+    {
+        return HeapSort(arg.clone(), arg.length);
+    }
     private static double[] HeapSort(double[] arg,int end)
     {
-        double[] arr;
-        if(arg.length==end)
-            arr=arg.clone();
-        else
-            arr=arg;
         if(end<2)
-            return arr;
+            return arg;
         double buf;
         for(int i=end/2-1;i>=0;i--)
-            arr=HeapForm(arr,i,end);
-        buf=arr[0];
-        arr[0]=arr[end-1];
-        arr[end-1]=buf;
-        arr=HeapSort(arr,end-1);
-        return arr;
+            arg = HeapForm(arg, i, end);
+        buf = arg[0];
+        arg[0] = arg[end - 1];
+        arg[end - 1] = buf;
+        arg = HeapSort(arg, end - 1);
+        return arg;
     }
 }

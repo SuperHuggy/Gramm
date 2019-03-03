@@ -11,9 +11,9 @@ public class AlGem {
         delegetable u = x -> (Math.pow(Math.E,-x/Math.sqrt(e))-Math.pow(Math.E,(x-2)/Math.sqrt(e)))/(1-Math.pow(Math.E,-2/Math.sqrt(e)));
         try
         {
-            double[] Y = Raznostn(0, 1, 10, x -> 1 / e, x -> 0, u.fun(0), u.fun(1));
+            double[] Y = Raznostn(0, 1, 5000, x -> 1 / e, x -> 0, u.fun(0), u.fun(1));
             System.out.println(Arrays.toString(Y));
-            System.out.println(Error(Y, u, 0, 1));
+            System.out.println(Error(Y, u, 0, 1)*5000*5000);
         } catch (Exception ex)
         {
             System.out.println(ex.getMessage());
