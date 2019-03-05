@@ -2,6 +2,24 @@ import java.util.Vector;
 
 public class Stack<E>
 {
+    public static void main(String[] args)
+    {
+        Stack<Double> a = new Stack<>();
+        a.add(1d);
+        a.add(2d);
+        a.add(3d);
+        a.add(4d);
+        a.add(5d);
+        a.add(6d);
+        a.add(7d);
+        a.add(8d);
+        a.add(9d);
+        System.out.println(a);
+        System.out.println(a.search(6d));
+        a.remove();
+        a.remove();
+        System.out.println(a);
+    }
     private Vector<E> data;
 
     Stack()
@@ -47,5 +65,10 @@ public class Stack<E>
         Stack<E> buf = new Stack<>();
         buf.data = (Vector<E>) this.data.clone();
         return buf;
+    }
+
+    public String toString()
+    {
+        return data.toString();
     }
 }

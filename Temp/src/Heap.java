@@ -5,6 +5,26 @@ public class Heap<E>
     private Vector<E> data;
     private del<E> s;
 
+    public static void main(String[] args)
+    {
+        Vector<Double> a = new Vector<>();
+        a.add(1d);
+        a.add(2d);
+        a.add(3d);
+        a.add(4d);
+        a.add(5d);
+        a.add(6d);
+        a.add(7d);
+        a.add(8d);
+        a.add(9d);
+        Heap<Double> h= new Heap<>(a,(b,c)-> b > c ? 1 : b < c ? -1 : 0);
+        System.out.println(h);
+        System.out.println(h.search(5d));
+        h.remove(6d);
+        h.remove(5d);
+        System.out.println(h);
+    }
+
     Heap(del<E> sravn)
     {
         s = sravn;
@@ -19,12 +39,14 @@ public class Heap<E>
 
     public Vector<E> HeapForm(Vector<E> arg)
     {
-        return HeapForm(arg, 0, arg.size());
+        Vector<E> arr = (Vector<E>) arg.clone();
+        for(int i=arg.size()-1;i>=0;i--)
+            ReHeap(arr,i,arr.size());
+        return arr;
     }
 
-    private Vector<E> HeapForm(Vector<E> arg, int i, int end)
+    private Vector<E> ReHeap(Vector<E> arr, int i, int end)
     {
-        Vector<E> arr = (Vector<E>) arg.clone();
         E buf;
         if (i * 2 + 2 < end)
         {
@@ -34,13 +56,13 @@ public class Heap<E>
                 buf = arr.get(i);
                 arr.set(i, arr.get(i * 2 + 1));
                 arr.set(i * 2 + 1, buf);
-                arr = HeapForm(arr, i * 2 + 1, end);
+                arr = ReHeap(arr, i * 2 + 1, end);
             } else if (s.fun(arr.get(i * 2 + 2), arr.get(i)) == 1)
             {
                 buf = arr.get(i);
                 arr.set(i, arr.get(i * 2 + 2));
                 arr.set(i * 2 + 2, buf);
-                arr = HeapForm(arr, i * 2 + 2, end);
+                arr = ReHeap(arr, i * 2 + 2, end);
             }
         } else if (i * 2 + 1 < end && s.fun(arr.get(i * 2 + 1), arr.get(i)) == 1)
         {
@@ -76,11 +98,13 @@ public class Heap<E>
 
     private E search(E e, int i)
     {
+        if(i>=data.size())
+            return null;
         if (s.fun(e, data.get(i)) == 1)
             return null;
         if (s.fun(data.get(i), e) == 0)
             return data.get(i);
-        E a = this.search(e, i * 2 + 1), b = this.search(e, i * 2 + 1);
+        E a = this.search(e, i * 2 + 1), b = this.search(e, i * 2 + 2);
         if (a != null)
             return a;
         else
@@ -94,14 +118,21 @@ public class Heap<E>
 
     private int indexOf(E e, int i)
     {
+        if(i>=data.size())
+            return -1;
         if (s.fun(e, data.get(i)) == 1)
             return -1;
         if (s.fun(data.get(i), e) == 0)
             return i;
-        int a = this.indexOf(e, i * 2 + 1), b = this.indexOf(e, i * 2 + 1);
+        int a = this.indexOf(e, i * 2 + 1), b = this.indexOf(e, i * 2 + 2);
         if (a != -1)
             return a;
         else
             return b;
+    }
+
+    public String toString()
+    {
+        return data.toString();
     }
 }
