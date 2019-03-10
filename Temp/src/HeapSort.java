@@ -5,7 +5,6 @@ public class HeapSort
     public static void main(String[] args)
     {
         System.out.println(Arrays.toString(HeapSort(new double[]{5,7,1,5,9,2,8,4,0},9)));
-        System.out.println(Arrays.toString(HeapForm(new double[]{1,2,3,4,5,6,7,8,9},0,9)));
     }
     private static double[] HeapForm(double[] arg,int i,int end)
     {

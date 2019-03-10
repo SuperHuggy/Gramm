@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc6178b4-9df1-4d66-afd3-74bf76f0169d" name="Default Changelist" comment="It works. I don't now how, but it works.">
+    <list default="true" id="bc6178b4-9df1-4d66-afd3-74bf76f0169d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Temp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Temp/src/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp/src/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Temp/src/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp/src/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Temp/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="720">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -100,7 +97,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551767154248" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551767297177" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -157,7 +154,7 @@
       <workItem from="1548050216724" duration="3219000" />
       <workItem from="1550558871314" duration="792000" />
       <workItem from="1550606936082" duration="11000" />
-      <workItem from="1551764324277" duration="982000" />
+      <workItem from="1551764324277" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="It works. I don't now how, but it works.">
       <created>1550559639631</created>
@@ -166,11 +163,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550559639631</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="It works. I don't now how, but it works.">
+      <created>1551767131823</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551767131823</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43634000" />
+    <option name="totallyTimeSpent" value="44031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
@@ -185,7 +189,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3966942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -292,15 +296,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="720">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
