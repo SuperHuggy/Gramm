@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class BinTree<T>
 {
     TreeElement root;
@@ -33,19 +31,19 @@ public class BinTree<T>
         }
     }
 
-    BinTree(double key)
+    public BinTree(double key)
     {
         root = new TreeElement(key);
     }
 
-    BinTree()
+    public BinTree()
     {
         root = null;
     }
 
     public boolean Add(double key)
     {
-        if (Search(key))
+        if (Search(key) != null)
             return false;
         RecAdd(new TreeElement(key), root);
         return true;
@@ -59,52 +57,46 @@ public class BinTree<T>
             if (a.ch1 != null)
             {
                 RecAdd(nw, a.ch1);
-                if (a.ch2 == null || a.ch1.deepness > a.ch2.deepness)
-                    a.deepness = a.ch1.deepness + 1;
                 Balancing(a);
             } else
             {
                 a.ch1 = nw;
                 nw.p = a;
-                if (a.ch2 == null)
-                    a.deepness += nw.deepness + 1;
+                RecDeUpd(a);
             }
         } else if (nw.key > a.key)
         {
             if (a.ch2 != null)
             {
                 RecAdd(nw, a.ch2);
-                if (a.ch1 == null || a.ch2.deepness > a.ch1.deepness)
-                    a.deepness = a.ch2.deepness + 1;
                 Balancing(a);
             } else
             {
                 a.ch2 = nw;
                 nw.p = a;
-                if (a.ch1 == null)
-                    a.deepness += nw.deepness + 1;
+                RecDeUpd(a);
             }
         }
     }
 
-    public boolean Search(double key)
+    public TreeElement Search(double key)
     {
         if (root != null)
             return RecSearch(key, root);
         else
-            return false;
+            return null;
     }
 
-    private boolean RecSearch(double key, TreeElement a)
+    private TreeElement RecSearch(double key, TreeElement a)
     {
         if (a.key == key)
-            return true;
+            return a;
         else if (key < a.key && a.ch1 != null)
             return RecSearch(key, a.ch1);
         else if (key > a.key && a.ch2 != null)
             return RecSearch(key, a.ch2);
         else
-            return false;
+            return null;
     }
 
     public T ValueOf(double key) throws Exception
@@ -142,11 +134,33 @@ public class BinTree<T>
         else
             a.p.ch2 = buf;
         a.p = buf;
-        if (a.ch2 != null && (a.ch1 == null || a.ch2.deepness > a.ch1.deepness))
-            a.deepness = a.ch2.deepness + 1;
-        if (buf.ch2 == null || buf.ch1.deepness > buf.ch2.deepness)
-            buf.deepness = buf.ch1.deepness + 1;
+        RecDeUpd(a);
         return buf;
+    }
+
+    private TreeElement BTurnL(TreeElement a)
+    {
+        TreeElement b = a.ch2, c = b.ch1;
+        a.ch2 = c.ch1;
+        if (c.ch1 != null)
+            a.ch2.p = a;
+        b.ch1 = c.ch2;
+        if (c.ch2 != null)
+            b.ch1.p = b;
+        c.p = a.p;
+        if (a.p == null)
+            root = c;
+        else if (a.key < a.p.key)
+            a.p.ch1 = c;
+        else
+            a.p.ch2 = c;
+        c.ch1 = a;
+        a.p = c;
+        c.ch2 = b;
+        b.p = c;
+        RecDeUpd(a);
+        RecDeUpd(b);
+        return c;
     }
 
     private TreeElement TurnR(TreeElement a)
@@ -165,19 +179,47 @@ public class BinTree<T>
             a.p.ch2 = buf;
         a.p = buf;
         RecDeUpd(a);
-        RecDeUpd(buf);
         return buf;
+    }
+
+    private TreeElement BTurnR(TreeElement a)
+    {
+        TreeElement b = a.ch1, c = b.ch2;
+        a.ch1 = c.ch2;
+        if (c.ch2 != null)
+            a.ch1.p = a;
+        b.ch2 = c.ch1;
+        if (c.ch1 != null)
+            b.ch2.p = b;
+        c.p = a.p;
+        if (a.p == null)
+            root = c;
+        else if (a.key < a.p.key)
+            a.p.ch1 = c;
+        else
+            a.p.ch2 = c;
+        c.ch1 = b;
+        b.p = c;
+        c.ch2 = a;
+        a.p = c;
+        RecDeUpd(a);
+        RecDeUpd(b);
+        return c;
     }
 
     private void RecDeUpd(TreeElement a)
     {
-        if (a.ch1 == null && a.ch2 == null && a.deepness != 1)
-            a.deepness = 1;
-        else if (a.ch1 != null && a.ch1.deepness != a.deepness - 1 && (a.ch2 == null || a.ch2.deepness < a.ch1.deepness))
+        if (a == null)
+            return;
+        if (a.ch1 == null && a.ch2 == null && a.deepness != 0)
+        {
+            a.deepness = 0;
+            RecDeUpd(a.p);
+        } else if (a.ch1 != null && a.ch1.deepness != a.deepness - 1 && (a.ch2 == null || a.ch2.deepness <= a.ch1.deepness))
         {
             a.deepness = a.ch1.deepness + 1;
             RecDeUpd(a.p);
-        } else if (a.ch2 != null && a.ch2.deepness != a.deepness - 1 && (a.ch1 == null || a.ch1.deepness < a.ch2.deepness))
+        } else if (a.ch2 != null && a.ch2.deepness != a.deepness - 1 && (a.ch1 == null || a.ch1.deepness <= a.ch2.deepness))
         {
             a.deepness = a.ch2.deepness + 1;
             RecDeUpd(a.p);
@@ -186,22 +228,20 @@ public class BinTree<T>
 
     private void Balancing(TreeElement a)
     {
-        if (a.ch1 == null && a.ch2 == null || a.ch1 == null && a.ch2.deepness == 1 || a.ch2 == null && a.ch1.deepness == 1)
+        if (a.ch1 == null && a.ch2 == null || a.ch1 == null && a.ch2.deepness == 0 || a.ch2 == null && a.ch1.deepness == 0)
             return;
-        if (a.ch1 == null || a.ch2 != null && a.ch2.deepness - a.ch1.deepness > 1)
+        if (a.ch2 != null && (a.ch1 == null || a.ch2.deepness - a.ch1.deepness == 2))
         {
-            do
-            {
+            if (a.ch2.ch1 != null && (a.ch2.ch2 == null || a.ch2.ch1.deepness > a.ch2.ch2.deepness))
+                a = BTurnL(a);
+            else
                 a = TurnL(a);
-            } while (a.ch2.deepness - a.ch1.deepness > 1);
-            return;
-        }
-        if (a.ch2 == null || a.ch1.deepness - a.ch2.deepness > 1)
+        } else if (a.ch2 == null || a.ch1.deepness - a.ch2.deepness == 2)
         {
-            do
-            {
+            if (a.ch1.ch2 != null && (a.ch1.ch1 == null || a.ch1.ch2.deepness > a.ch1.ch1.deepness))
+                a = BTurnR(a);
+            else
                 a = TurnR(a);
-            } while (a.ch1.deepness - a.ch2.deepness > 1);
         }
     }
 
@@ -251,69 +291,133 @@ public class BinTree<T>
 
     public boolean Remove(double key)
     {
-        if (Search(key))
-            RecRemove(key, root);
-        return Search(key);
+        TreeElement buf = Search(key);
+        if (buf != null)
+            RecRemove(buf);
+        else
+            return false;
+        return true;
     }
 
-    private void RecRemove(double key, TreeElement a)
+    /*void AddBalancedTree(TreeElement x,TreeElement a)
     {
-        if (a.key == key)
+        if(x.deepness>a.deepness)
+            throw new IllegalArgumentException();
+        if(x.deepness==0)
+            RecAdd(x,a);
+        else if(x.key<a.key)
         {
-            if (a.p == null)
+            if(a.ch1==null)
             {
-                if (a.ch2 != null)
-                {
-                    root = a.ch2;
-                    a.ch2.p = null;
-                    if (a.ch1 != null)
-                    {
-                        a.ch1.p = null;
-                        RecAdd(a.ch1, root);
-                    }
-                } else if (a.ch1 != null)
-                {
-                    root = a.ch1;
-                    a.ch1.p = null;
-                } else
-                    root = null;
-            } else if (a.p.ch1 == a)
-            {
-                if (a.ch1 != null)
-                {
-                    a.p.ch1 = a.ch1;
-                    a.ch1.p = a.p;
-                } else
-                {
-                    a.p.ch1 = null;
-                }
-                if (a.ch2 != null)
-                {
-                    a.ch2.p = null;
-                    RecAdd(a.ch2, root);
-                }
-            } else if (a.p.ch2 == a)
-            {
-                if (a.ch2 != null)
-                {
-                    a.p.ch2 = a.ch2;
-                    a.ch2.p = a.p;
-                } else
-                {
-                    a.p.ch2 = null;
-                }
-                if (a.ch1 != null)
-                {
-                    a.ch1.p = null;
-                    RecAdd(a.ch1, root);
-                }
+                a.ch1=x;
+                x.p=a;
+                RecDeUpd(x);
+                Balancing(a.p);
             }
-        } else if (key < a.key && a.ch1 != null)
-        {
-            RecRemove(key, a.ch1);
-        } else if (key > a.key && a.ch2 != null)
-        {
-            RecRemove(key, a.ch2);
+            else if(x.deepness-a.ch1.deepness==1)
+            {
+                TreeElement buf=a.ch1;
+                a.ch1=x;
+                x.p=a;
+                AddBalancedTree(buf,a.ch1);
+            }
+            else if(x.deepness<=a.ch1.deepness)
+            {
+                AddBalancedTree(x,a.ch1);
+            }
+            else if(a.deepness==x.deepness)
+            {
+                TreeElement buf=a.ch1;
+                a.ch1=x;
+                x.p=a;
+                a.deepness++;
+                if(a.p!=null)
+                    Balancing(a.p);
+                AddBalancedTree(buf,a.ch1);
+            }
         }
+        else if(x.key>a.key)
+        {
+            if(a.ch2==null)
+            {
+                a.ch2=x;
+                x.p=a;
+                RecDeUpd(x);
+                Balancing(a.p);
+            }
+            else if(x.deepness-a.ch2.deepness==1)
+            {
+                TreeElement buf=a.ch2;
+                a.ch2=x;
+                x.p=a;
+                AddBalancedTree(buf,a.ch2);
+            }
+            else if(a.ch2.deepness>=x.deepness)
+            {
+                AddBalancedTree(x,a.ch1);
+            }
+            else if(a.deepness==x.deepness)
+            {
+                TreeElement buf=a.ch2;
+                a.ch2=x;
+                x.p=a;
+                a.deepness++;
+                if(a.p!=null)
+                    Balancing(a.p);
+                AddBalancedTree(buf,a.ch2);
+            }
+        }
+    }*/
+
+    private void RecRemove(TreeElement a)
+    {
+        if (a.ch1 == null && a.ch2 == null)
+        {
+            if (a.key > a.p.key)
+                    a.p.ch2 = null;
+            else
+                a.p.ch1 = null;
+            RecBalancing(a.p);
+            } else if (a.ch1 == null || a.ch2 != null && a.ch2.deepness >= a.ch1.deepness)
+        {
+            TreeElement buf = FindTheClosest(a.key, a.ch2);
+            Swap(a, buf);
+            RecRemove(buf);
+        } else
+        {
+            TreeElement buf = FindTheClosest(a.key, a.ch1);
+            Swap(a, buf);
+            RecRemove(buf);
+        }
+    }
+
+    private void RecBalancing(TreeElement a)
+    {
+        if (a != null)
+        {
+            Balancing(a);
+            RecDeUpd(a);
+            RecBalancing(a.p);
+        }
+    }
+
+    private TreeElement FindTheClosest(double key, TreeElement a)
+    {
+        if (key < a.key && a.ch1 != null)
+            return FindTheClosest(key, a.ch1);
+        else if (key > a.key && a.ch2 != null)
+            return FindTheClosest(key, a.ch2);
+        else
+            return a;
+    }
+
+    private void Swap(TreeElement a, TreeElement b)
+    {
+        T buf = a.value;
+        a.value = b.value;
+        b.value = buf;
+        double buff = a.key;
+        a.key = b.key;
+        b.key = buff;
     }
 }
