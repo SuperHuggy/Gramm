@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
+    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="Домашнее Задание здесь">
+      <change afterPath="$PROJECT_DIR$/src/Formation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Perc2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/src/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/src/BinTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -63,6 +68,37 @@
                 <element signature="e#1059#1060#0" expanded="true" />
                 <element signature="e#1115#1116#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="127" selection-start-line="5" selection-start-column="127" selection-end-line="5" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Formation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+              <folding>
+                <element signature="e#2922#2923#0" expanded="true" />
+                <element signature="e#2975#2976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Perc2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -103,10 +139,12 @@
       <find>arr</find>
       <find>clon</find>
       <find>eq</find>
+      <find>a</find>
     </findStrings>
     <replaceStrings>
       <replace>l</replace>
       <replace>arr1</replace>
+      <replace>x</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -131,6 +169,9 @@
         <option value="$PROJECT_DIR$/src/Heap.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Rank.java" />
+        <option value="$PROJECT_DIR$/src/Formation.java" />
+        <option value="$PROJECT_DIR$/src/Perc2.java" />
       </list>
     </option>
   </component>
@@ -179,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552224026184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553243612326" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,7 +247,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.Perc2">
+    <configuration name="Formation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Formation" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap" />
       <module name="Temp" />
@@ -228,22 +276,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proga" />
+    <configuration name="Perc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Perc2" />
       <module name="Temp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proga2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proga2" />
-      <module name="Temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack" />
+    <configuration name="Rank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rank" />
       <module name="Temp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Perc2" />
+        <item itemvalue="Application.Formation" />
+        <item itemvalue="Application.Rank" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Heap" />
-        <item itemvalue="Application.Stack" />
-        <item itemvalue="Application.Proga" />
-        <item itemvalue="Application.Proga2" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +336,8 @@
       <workItem from="1551770601636" duration="413000" />
       <workItem from="1552222859302" duration="1614000" />
       <workItem from="1552930135854" duration="87000" />
+      <workItem from="1553173326905" duration="3649000" />
+      <workItem from="1553238839610" duration="4825000" />
     </task>
     <task id="LOCAL-00001" summary="Просто загружаю всё что есть...">
       <created>1550822099045</created>
@@ -335,7 +378,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103423000" />
+    <option name="totallyTimeSpent" value="111897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,9 +391,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38148445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3942538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +401,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21818182" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21818182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3966942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,6 +507,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -479,14 +532,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/src/Rank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="75">
+          <caret line="5" column="127" selection-start-line="5" selection-start-column="127" selection-end-line="5" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Formation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
           <folding>
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2975#2976#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Perc2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
         </state>
       </provider>
     </entry>
