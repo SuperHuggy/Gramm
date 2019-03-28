@@ -1,22 +1,34 @@
 package com.company;
 
-import java.util.Arrays;
+import java.io.*;
 
 public class AlGem {
 
     //Демонстрация работы
     public static void main(String[] args)
     {
-        double e = 0.05;
-        delegetable u = x -> (Math.pow(Math.E,-x/Math.sqrt(e))-Math.pow(Math.E,(x-2)/Math.sqrt(e)))/(1-Math.pow(Math.E,-2/Math.sqrt(e)));
+        int n=10000;
+        double[] a=new double[n],b=new double[n],c=new double[n],f=new double[n];
+        for(int i=0;i<n;i++)
+        {
+            a[i]= Math.round(Math.random()*1000);
+            c[i]=a[i];
+            b[i]=a[i]+a[i]+a[i]+Math.round(1000*Math.random());
+        }
+        f[0]=b[0]+c[0];
+        for(int i=1;i<n-1;i++)
+            f[i]=a[i]+b[i]+c[i];
+        f[n-1]=a[n-1]+b[n-1];
         try
         {
-            double[] Y = Raznostn(0, 1, 5000, x -> 1 / e, x -> 0, u.fun(0), u.fun(1));
-            System.out.println(Arrays.toString(Y));
-            System.out.println(Error(Y, u, 0, 1)*5000*5000);
-        } catch (Exception ex)
+            long buf = System.nanoTime();
+            for (int i = 0; i < 10000; i++)
+                Progon(a, b, c, f, n);
+            System.out.println((double)(System.nanoTime()-buf)/Math.pow(10,13));
+        }
+        catch (Exception e)
         {
-            System.out.println(ex.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 
@@ -25,27 +37,52 @@ public class AlGem {
      *На вход подаются массивы содержащие элементы диагоналей и массив содержащий вектор коэффицентов правой части уравнений.
      *При вводе требуется доопределить первый элемент нижней диагонали и последний элемент верхней диагонали любыми числами.
      *Результатом работы является вектор решений системы уравнений*/
-    public static double[] Progon(double[] a, double[] b, double[] c, double[] f) throws Exception
+    public static double[] Progon(double[] a, double[] b, double[] c, double[] f,int n) throws Exception
     {
-        int n=a.length;
-        if (n != b.length || n != c.length || n != f.length)
-            throw new Exception("Длина массивов не совпадает(При необходимости доопределите a(0) и c(n-1) нулями)");
         double[] B=b.clone(),F=f.clone();
         if (Math.abs(b[0]) < Math.abs(c[0]))
-            throw new Exception("Отсутствует диагональное преобладание");
+            throw new IllegalArgumentException("Отсутствует диагональное преобладание");
         for(int i=1;i<n;i++)
         {
             if (Math.abs(b[i]) < Math.abs(c[i]) + Math.abs(a[i]))
-                throw new Exception("Отсутствует диагональное преобладание");
+                throw new IllegalArgumentException("Отсутствует диагональное преобладание");
             B[i] -= c[i - 1] * a[i] / B[i - 1];
             F[i]-=F[i-1]*a[i] / B[i - 1];
         }
-        double[] x=new double[n];
-        x[n-1]=F[n-1]/B[n-1];
+        F[n-1]/=B[n-1];
         for(int i=n-2;i>=0;i--)
-            x[i]=(F[i]-c[i]*x[i+1])/B[i];
-        return x;
+            F[i]=(F[i]-c[i]*F[i+1])/B[i];
+        return F;
     }
+
+    public static double RandError(int n)
+    {
+        double[] a=new double[n],b=new double[n],c=new double[n],f=new double[n];
+        for(int i=0;i<n;i++)
+        {
+            a[i]= Math.random();
+            c[i]=a[i];
+            b[i]=2+a[i];
+        }
+        f[0]=b[0]+c[0];
+        for(int i=1;i<n-1;i++)
+            f[i]=a[i]+b[i]+c[i];
+        f[n-1]=a[n-1]+b[n-1];
+        try
+        {
+            double[] x=Progon(a,b,c,f,n);
+            double error=0;
+            for(double buf:x)
+                error+=(buf-1)*(buf-1);
+            return error;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            return -1;
+        }
+    }
+
 
     /*Метод решения Краевых задач для обыкновенных дифференциальных уравнений конечно-разностной схемой.
      *На вход подаются координаты концов отрезка, количество узлов, функции q и f, значения искомой функции на краях отрезка
@@ -67,7 +104,7 @@ public class AlGem {
         }
         f[0]+=ua;
         f[n-1]+=ub;
-        return Progon(a,b,c,f);
+        return Progon(a,b,c,f,n);
     }
 
     public static double Error(double[] y, delegetable u, double st, double end) throws Exception

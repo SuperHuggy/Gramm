@@ -1,6 +1,6 @@
 public class BinTree<T>
 {
-    TreeElement root;
+    private TreeElement root;
     private int maxlen = 0;
     private StringBuilder buf, space;
 
@@ -51,7 +51,6 @@ public class BinTree<T>
 
     private void RecAdd(TreeElement nw, TreeElement a)
     {
-        int buf = 0;
         if (nw.key < a.key)
         {
             if (a.ch1 != null)
