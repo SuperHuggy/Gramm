@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module4.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Polinom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/SLAU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlGem/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Rank.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +38,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Module4_1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -54,12 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module4_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -112,13 +103,17 @@
         <option value="$PROJECT_DIR$/src/Mt.java" />
         <option value="$PROJECT_DIR$/src/Matrice1.java" />
         <option value="$PROJECT_DIR$/src/HapeSort.java" />
-        <option value="$PROJECT_DIR$/src/Heap.java" />
         <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/Formation.java" />
         <option value="$PROJECT_DIR$/src/Perc2.java" />
-        <option value="$PROJECT_DIR$/src/Rank.java" />
         <option value="$PROJECT_DIR$/src/Module4.java" />
+        <option value="$PROJECT_DIR$/src/Fwd_БИЛЕТЫ_1.txt,_БИЛЕТЫ_2.txt.eml" />
+        <option value="$PROJECT_DIR$/src/Heap.java" />
+        <option value="$PROJECT_DIR$/src/Rank.java" />
+        <option value="$PROJECT_DIR$/src/Bilet.java" />
+        <option value="$PROJECT_DIR$/src/Bilet2.java" />
+        <option value="$PROJECT_DIR$/../AlGem/src/com/company/Rank.java" />
         <option value="$PROJECT_DIR$/src/Module4_2.java" />
       </list>
     </option>
@@ -131,9 +126,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="283" />
-    <option name="width" value="1299" />
-    <option name="height" value="741" />
+    <option name="y" value="88" />
+    <option name="width" value="1289" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,8 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,46 +148,18 @@
               <item name="Temp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11.0.2 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11.0.2 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11.0.2 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Temp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 11.0.2 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="java.base" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553959508438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554447201690" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -202,9 +167,15 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -222,8 +193,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Module4_2">
-    <configuration name="Formation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Formation" />
+    <configuration name="Bilet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bilet" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bilet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bilet2" />
       <module name="Temp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,13 +228,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Perc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Perc2" />
-      <module name="Temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Rank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Rank" />
       <module name="Temp" />
@@ -267,10 +238,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Module4_2" />
+        <item itemvalue="Application.Bilet2" />
+        <item itemvalue="Application.Bilet" />
         <item itemvalue="Application.Module4" />
         <item itemvalue="Application.Rank" />
-        <item itemvalue="Application.Perc2" />
-        <item itemvalue="Application.Formation" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +288,15 @@
       <workItem from="1553442206049" duration="1718000" />
       <workItem from="1553600020118" duration="57000" />
       <workItem from="1553732817507" duration="217000" />
-      <workItem from="1553945500527" duration="12267000" />
+      <workItem from="1553945500527" duration="12545000" />
+      <workItem from="1553960309052" duration="410000" />
+      <workItem from="1553960776956" duration="2007000" />
+      <workItem from="1553962854750" duration="2170000" />
+      <workItem from="1554025512665" duration="3417000" />
+      <workItem from="1554309459695" duration="51000" />
+      <workItem from="1554354192944" duration="631000" />
+      <workItem from="1554446610794" duration="611000" />
+      <workItem from="1554448222521" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="Просто загружаю всё что есть...">
       <created>1550822099045</created>
@@ -368,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553732964339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Модуль 4">
+      <created>1553959540074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553959540074</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131212000" />
+    <option name="totallyTimeSpent" value="142093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,17 +373,16 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1819633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.207502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21818182" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23305786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3966942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,6 +393,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.3289256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,20 +446,9 @@
     <MESSAGE value="Просто загружаю всё что есть..." />
     <MESSAGE value="Домашнее Задание здесь" />
     <MESSAGE value="Метод окаймляющих миноров" />
-    <option name="LAST_COMMIT_MESSAGE" value="Метод окаймляющих миноров" />
+    <MESSAGE value="Модуль 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 4" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Rank.java</url>
-          <line>4</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Collections.class" />
@@ -567,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -637,10 +605,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rank.java">
+    <entry file="file://$PROJECT_DIR$/src/Fwd[2]_Практики.eml" />
+    <entry file="file://$PROJECT_DIR$/src/Fwd_БИЛЕТЫ_1.txt,_БИЛЕТЫ_2.txt.eml" />
+    <entry file="file://$PROJECT_DIR$/src/2017_исследование операций.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/БИЛЕТЫ_2.txt" />
+    <entry file="file://$PROJECT_DIR$/tests/БИЛЕТЫ_3.txt" />
+    <entry file="file://$PROJECT_DIR$/src/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/БИЛЕТЫ_1.txt" />
+    <entry file="file://$PROJECT_DIR$/.attach_pid8713" />
+    <entry file="file://$PROJECT_DIR$/module4.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests_rtf/БИЛЕТЫ_1.rtf" />
+    <entry file="file://$PROJECT_DIR$/src/Bilet.java" />
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.desktop/javax/swing/text/DefaultStyledDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bilet2.java" />
+    <entry file="file://$PROJECT_DIR$/../AlGem/src/com/company/Rank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,12 +652,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Module4_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>
