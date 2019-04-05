@@ -9,7 +9,10 @@ public class Module4_1
             in.readLine();
             String line;
             while ((line = in.readLine()) != null)
-                System.out.println(line.split(",")[4]);
+            {
+                String[] buf = line.split(",");
+                System.out.println(buf[0] + " " + buf[4]);
+            }
         } catch (IOException e)
         {
             System.out.println(e.getMessage());
