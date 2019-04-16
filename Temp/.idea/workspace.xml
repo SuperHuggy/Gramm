@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="">
+    <list default="true" id="28061ddb-56eb-4dc2-b089-f6edf525b4e2" name="Default Changelist" comment="Модуль 4">
       <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Complex.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Polinom.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Raznostn.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/SLAU.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AlGem/src/com/company/SnLAU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlGem/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/src/com/company/AlGem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AlGem/src/com/company/Rank.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,22 +65,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="206">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4899" selection-start-line="4899" selection-end-line="4899" />
             </state>
           </provider>
         </entry>
@@ -147,6 +135,8 @@
         <option value="$PROJECT_DIR$/../AlGem/src/com/company/Rank.java" />
         <option value="$PROJECT_DIR$/src/Module4_2.java" />
         <option value="$PROJECT_DIR$/src/Module4_1.java" />
+        <option value="$PROJECT_DIR$/src/Search.java" />
+        <option value="$PROJECT_DIR$/src/KMP.java" />
         <option value="$PROJECT_DIR$/src/Module5.java" />
       </list>
     </option>
@@ -169,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,14 +176,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555260964875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555394613101" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -226,15 +216,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Module5">
-    <configuration name="Bilet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bilet" />
+    <configuration name="Bilet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bilet2" />
       <module name="Temp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bilet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bilet2" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KMP" />
       <module name="Temp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,10 +261,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Module5" />
+        <item itemvalue="Application.KMP" />
         <item itemvalue="Application.Module4_1" />
         <item itemvalue="Application.Module4_2" />
         <item itemvalue="Application.Bilet2" />
-        <item itemvalue="Application.Bilet" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +322,9 @@
       <workItem from="1554448222521" duration="2445000" />
       <workItem from="1555174183167" duration="1112000" />
       <workItem from="1555234344475" duration="599000" />
-      <workItem from="1555245580300" duration="8924000" />
+      <workItem from="1555245580300" duration="9275000" />
+      <workItem from="1555276898649" duration="1944000" />
+      <workItem from="1555393515763" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Просто загружаю всё что есть...">
       <created>1550822099045</created>
@@ -404,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554449879102</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Модуль 5">
+      <created>1555260997813</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555260997814</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153867000" />
+    <option name="totallyTimeSpent" value="157080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +422,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21707901" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22426178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +431,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23305786" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23305786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3966942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,7 +496,8 @@
     <MESSAGE value="Домашнее Задание здесь" />
     <MESSAGE value="Метод окаймляющих миноров" />
     <MESSAGE value="Модуль 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 4" />
+    <MESSAGE value="Модуль 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -697,6 +697,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72045">
+          <caret line="4899" selection-start-line="4899" selection-end-line="4899" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KMP.java" />
+    <entry file="file://$PROJECT_DIR$/src/Search.java" />
     <entry file="file://$PROJECT_DIR$/src/Module4_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -714,21 +723,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-11-oracle/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4899" selection-start-line="4899" selection-end-line="4899" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="206">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
           </folding>
         </state>
       </provider>

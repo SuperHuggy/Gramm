@@ -6,18 +6,18 @@ public class Module5
 
     public static void main(String[] args)
     {
-        int[][] buf = KMP("asdfghjklzxcvbnm,qwertyuioasdfghjkzxcvbnasdfghqwertyuqwertyqwertyuasdfghzxcvbnasdfghqwertysdfgzxcvb", new String[]{"asd", "zxc", "qwe"});
+        int[][] buf = KMP("asdfghjklzxcvbnm,qwertyuioasdfghjkzxcvbnasdfghqwertyuqwertyqwertyuasdfghzxcvbnasdfghqwertysdfgzxcvb", new String[]{"asd", "zxc", "qwe", "a", "dfg"});
         for (int[] ints : buf) System.out.println(Arrays.toString(ints));
     }
 
     public static int[][] KMP(String h, String[] n)
     {
         int[][] result = new int[n.length][];
-        ExecutorService exec = Executors.newFixedThreadPool(n.length);
-        ArrayList<Future<ArrayList<Integer>>> buf = new ArrayList<>();
+        ExecutorService exec = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() > n.length ? n.length : Runtime.getRuntime().availableProcessors());
+        Future<ArrayList<Integer>>[] buf = new Future[n.length];
+        for (int i = 0; i < n.length; i++)
+            buf[i] = exec.submit(new MultyKMP(h, n[i]));
         int i = 0;
-        for (String N : n)
-            buf.add(exec.submit(new MultyKMP(h, N)));
         exec.shutdown();
         for (Future<ArrayList<Integer>> arr : buf)
         {
