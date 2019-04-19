@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Module5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="840">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/Module4_1.java" />
         <option value="$PROJECT_DIR$/src/Search.java" />
         <option value="$PROJECT_DIR$/src/KMP.java" />
+        <option value="$PROJECT_DIR$/src/MoiProebalova.java" />
         <option value="$PROJECT_DIR$/src/Module5.java" />
       </list>
     </option>
@@ -159,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,13 +176,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555394613101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555658390170" />
     <property name="last_opened_file_path" value="$USER_HOME$/Программирование/idea/IdeaProjects/MetodGausa" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -216,13 +217,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Module5">
-    <configuration name="Bilet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bilet2" />
-      <module name="Temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KMP" />
       <module name="Temp" />
@@ -258,13 +252,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoiProebalova" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MoiProebalova" />
+      <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Module5" />
+        <item itemvalue="Application.MoiProebalova" />
         <item itemvalue="Application.KMP" />
         <item itemvalue="Application.Module4_1" />
         <item itemvalue="Application.Module4_2" />
-        <item itemvalue="Application.Bilet2" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +325,10 @@
       <workItem from="1555234344475" duration="599000" />
       <workItem from="1555245580300" duration="9275000" />
       <workItem from="1555276898649" duration="1944000" />
-      <workItem from="1555393515763" duration="918000" />
+      <workItem from="1555393515763" duration="5044000" />
+      <workItem from="1555531961147" duration="1591000" />
+      <workItem from="1555606860023" duration="7064000" />
+      <workItem from="1555657837248" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="Просто загружаю всё что есть...">
       <created>1550822099045</created>
@@ -403,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555260997814</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Модуль 4">
+      <created>1555394630292</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555394630292</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157080000" />
+    <option name="totallyTimeSpent" value="170413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +433,7 @@
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22426178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23623304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +442,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23305786" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23305786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3966942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,10 +506,22 @@
     <MESSAGE value="Просто загружаю всё что есть..." />
     <MESSAGE value="Домашнее Задание здесь" />
     <MESSAGE value="Метод окаймляющих миноров" />
-    <MESSAGE value="Модуль 4" />
     <MESSAGE value="Модуль 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 5" />
+    <MESSAGE value="Модуль 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 4" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MoiProebalova.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Collections.class" />
@@ -723,10 +746,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoiProebalova.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Module5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="840">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
