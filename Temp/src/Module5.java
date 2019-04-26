@@ -157,16 +157,15 @@ class MultyKMP implements Callable<ArrayList<Integer>>
     {
         int[] pref = new int[s.length()];
         int k = 0;
-        for (int i = 1; i < s.length(); i++)
+        for (int i = 1; i < s.length(); ++i)
         {
+            while ((k > 0) && (s.charAt(k) != s.charAt(i)))
+                k = pref[k - 1];
             if (s.charAt(k) == s.charAt(i))
-                pref[i] = ++k;
-            else
-            {
-                k = 0;
-                pref[i] = 0;
-            }
+                ++k;
+            pref[i] = k;
         }
         return pref;
     }
+
 }
