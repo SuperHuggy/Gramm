@@ -17,6 +17,7 @@ public class LabWork1
             sum += numberOfnegative(tabulation(-2 * PI, 2 * PI, PI / 6, test[i]));
             System.out.println(numberOfnegative(tabulation(-2 * PI, 2 * PI, PI / 6, test[i])));
         }
+        System.out.println("Сумма: " + sum);
         int n = 1000;
         double[] x = new double[n];
         double min = Double.MAX_VALUE, max = 0;

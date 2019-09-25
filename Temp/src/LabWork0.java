@@ -33,14 +33,13 @@ public class LabWork0
 
     public static String formatedInformation(String s)
     {
-        DecimalFormat har = new DecimalFormat("#0.00"), sh = new DecimalFormat("#0.000000000");
         int l = s.length();
         return String.format("%-58s%-12s%-12s%1s%14s%1s%14.2f%1s%14.9f%n", "|" + s, "|" + isPolindrom(s), "|" + l, "|", l * 2, "|", hartli(s), "|", henon(s));
     }
 
     private static double hartli(String s)
     {
-        int a = (int) ('а'), alphPower = 0;
+        int alphPower = 0;
         short[] alph = new short[58];
         for (int i = 0; i < s.length(); i++)
         {
@@ -54,7 +53,7 @@ public class LabWork0
 
     private static double henon(String s)
     {
-        int a = (int) ('а'), l = s.length();
+        int l = s.length();
         double res = 0;
         short[] alph = new short[58];
         for (int i = 0; i < s.length(); i++)
