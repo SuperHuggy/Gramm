@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Arrays;
 
 public class Perceptron
 {
@@ -13,7 +12,7 @@ public class Perceptron
             double[][] x = new double[178][];
             double[] t = new double[178];
             String line;
-            int i = 0, k = 0;
+            int i = 0;
             while ((line = in.readLine()) != null)
             {
                 String[] buf = line.split(",");
@@ -37,13 +36,13 @@ public class Perceptron
         }
     }
 
-    private static double a = 1, z = 0.01;
+    private static double a = 1, z = 1;
 
     private int min = 100;
 
     private Neuron[][] N;
 
-    protected double sigm(double s)
+    private  double sigm(double s)
     {
         return 1 / (1 + Math.exp(-a * s));
     }
@@ -162,11 +161,11 @@ public class Perceptron
         try (FileWriter out = new FileWriter("status.csv"))
         {
             out.write(min + "\n");
-            for (int i = 0; i < N.length; i++)
+            for (Neuron[] neurons : N)
             {
-                for (int j = 0; j < N[i].length; j++)
+                for (Neuron neuron : neurons)
                 {
-                    for (double buf : N[i][j].wt)
+                    for (double buf : neuron.wt)
                         out.write(buf + ",");
                     out.write(";");
                 }
@@ -183,14 +182,14 @@ public class Perceptron
         try (BufferedReader in = new BufferedReader(new FileReader("status.csv")))
         {
             min = Integer.parseInt(in.readLine());
-            for (int i = 0; i < N.length; i++)
+            for (Neuron[] neurons : N)
             {
                 String[] buf = in.readLine().split(";");
-                for (int j = 0; j < N[i].length; j++)
+                for (int j = 0; j < neurons.length; j++)
                 {
                     String[] buf1 = buf[j].split(",");
-                    for (int k = 0; k < N[i][j].wt.length; k++)
-                        N[i][j].wt[k] = Double.parseDouble(buf1[k]);
+                    for (int k = 0; k < neurons[j].wt.length; k++)
+                        neurons[j].wt[k] = Double.parseDouble(buf1[k]);
                 }
             }
         } catch (Exception e)
