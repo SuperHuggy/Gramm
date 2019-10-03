@@ -1,11 +1,6 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Queue;
+import java.util.*;
 
 public class LabWork2
 {
@@ -79,7 +74,7 @@ public class LabWork2
         }
         System.out.println("Задание 3");
         System.out.println(balance("M(m(3,5),M(1,2))"));
-        System.out.println(balance("M{m[3,5),M(1,2)}"));
+        System.out.println(balance("{x*(-1)-[4*x+5-(2+y)+90]}"));
         System.out.println("Задание 4");
         System.out.println(parse("M(m(3,5),M(1,2))", 1));
         System.out.println("Задание 5");
@@ -120,7 +115,7 @@ public class LabWork2
             buf = s.charAt(i);
             if (buf == '{' || buf == '(' || buf == '[')
                 stack.add(buf);
-            else if (buf == '}' && stack.firstElement() == '{' || buf == ')' && stack.firstElement() == '(' || buf == ']' && stack.firstElement() == '(')
+            else if (buf == '}' && stack.firstElement() == '{' || buf == ')' && stack.firstElement() == '(' || buf == ']' && stack.firstElement() == '[')
                 stack.remove();
             else if (buf == '}' || buf == ')' || buf == ']')
                 return false;
