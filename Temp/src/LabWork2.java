@@ -58,10 +58,11 @@ public class LabWork2
                 deque.add(new Person(buf));
             }
             System.out.println("Люди младше 40");
+            LocalDate date = LocalDate.now().minusYears(40);
             while (!stack.isEmpty())
             {
                 Person buff = stack.remove();
-                if (LocalDate.now().getYear() - buff.date.getYear() < 40)
+                if (buff.date.isAfter(date))
                     System.out.println(buff);
             }
 
@@ -69,7 +70,7 @@ public class LabWork2
             while (!deque.isEmpty())
             {
                 Person buff = deque.remove();
-                if (LocalDate.now().getYear() - buff.date.getYear() > 40)
+                if (buff.date.isBefore(date))
                     System.out.println(buff);
             }
         } catch (IOException e)
@@ -77,7 +78,8 @@ public class LabWork2
             System.out.println(e.getMessage());
         }
         System.out.println("Задание 3");
-
+        System.out.println(balance("M(m(3,5),M(1,2))"));
+        System.out.println(balance("M{m[3,5),M(1,2)}"));
         System.out.println("Задание 4");
         System.out.println(parse("M(m(3,5),M(1,2))", 1));
         System.out.println("Задание 5");
@@ -102,7 +104,11 @@ public class LabWork2
             System.out.println(e.getMessage());
         }
         System.out.println("Задание 6");
-
+        ArrayList<Point2> points = new ArrayList<>();
+        for (int i = 0; i < 10; i++)
+            points.add(new Point2(i, 9 - i));
+        BrokenLine brokenLine = new BrokenLine(points);
+        System.out.println(brokenLine);
     }
 
     static boolean balance(String s)
