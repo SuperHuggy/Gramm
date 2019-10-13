@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class BrokenLine implements Iterable<Point2>
 {
@@ -10,6 +7,11 @@ public class BrokenLine implements Iterable<Point2>
     BrokenLine(ArrayList<Point2> p)
     {
         points = (ArrayList<Point2>) p.clone();
+    }
+
+    public void addPoint(Point2 p)
+    {
+        points.add(p);
     }
 
     public int GetN()
