@@ -1,0 +1,93 @@
+{
+  "Sportpeople": [
+    {
+      "name": "vasya",
+      "birthday": "1987-12-13",
+      "sex": "м",
+      "events": [
+        {
+          "place": "казань",
+          "year": 2003,
+          "result": 200,
+          "award": "gold"
+        },
+        {
+          "place": "москва",
+          "year": 2002,
+          "result": 180,
+          "award": "silver"
+        }
+      ]
+    },
+    {
+      "name": "kolya",
+      "birthday": "1985-01-13",
+      "sex": "м",
+      "events": [
+        {
+          "place": "казань",
+          "year": 2003,
+          "result": 160,
+          "award": "bronze"
+        }
+      ]
+    },
+    {
+      "name": "shura",
+      "birthday": "1982-02-13",
+      "sex": "ж",
+      "events": [
+        {
+          "place": "киев",
+          "year": 2001,
+          "result": 200,
+          "award": "gold"
+        },
+        {
+          "place": "москва",
+          "year": 2002,
+          "result": 200,
+          "award": "gold"
+        }
+      ]
+    },
+    {
+      "name": "Катя",
+      "birthday": "2000-01-12",
+      "sex": "ж",
+      "events": [
+        {
+          "place": "нижнекамск ",
+          "year": 2010,
+          "result": 160,
+          "award": "bronze"
+        },
+        {
+          "place": "альметьевск",
+          "year": 2011,
+          "result": 200,
+          "award": "gold"
+        }
+      ]
+    },
+    {
+      "name": "Петя",
+      "birthday": "2001-01-12",
+      "sex": "м",
+      "events": [
+        {
+          "place": "бугульма ",
+          "year": 2015,
+          "result": 200,
+          "award": "gold"
+        },
+        {
+          "place": "минск",
+          "year": 2017,
+          "result": 180,
+          "award": "silver"
+        }
+      ]
+    }
+  ]
+}
