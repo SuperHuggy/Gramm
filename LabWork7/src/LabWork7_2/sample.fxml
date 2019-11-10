@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="LabWork7_2.Controller" alignment="CENTER" spacing="20">
+    <HBox alignment="CENTER" spacing="20">
+        <ImageView fitHeight="200" fitWidth="200">
+            <Image url="@Image.png"/>
+        </ImageView>
+        <VBox spacing="60" alignment="CENTER">
+            <VBox spacing="10">
+                <Text text="Кординаты точки на плоскости"/>
+                <HBox alignment="CENTER">
+                    <Text text="X = "/>
+                    <TextField fx:id="xPoint" maxWidth="80" minWidth="80"/>
+                </HBox>
+                <HBox alignment="CENTER">
+                    <Text text="Y = "/>
+                    <TextField fx:id="yPoint" maxWidth="80" minWidth="80"/>
+                </HBox>
+            </VBox>
+            <HBox alignment="CENTER">
+                <Button text="Проверить" prefHeight="50" prefWidth="150" onAction="#check"/>
+            </HBox>
+        </VBox>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Text fx:id="result"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LabWork7_3.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" prefWidth="165.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" prefWidth="150.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" prefWidth="150.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" prefWidth="150.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="-Infinity" prefHeight="55.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+    <children>
+        <ComboBox fx:id="firstPhrase" prefHeight="25.0" prefWidth="140.0" GridPane.halignment="CENTER"
+                  GridPane.valignment="CENTER">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Кузнечик"/>
+                    <String fx:value="Вася"/>
+                    <String fx:value="Крокодил"/>
+                    <String fx:value="Орел"/>
+                    <String fx:value="Трактор"/>
+                    <String fx:value="Боинг 747"/>
+                    <String fx:value="Слоник"/>
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <ComboBox fx:id="secondPhrase" prefHeight="25.0" prefWidth="140.0" GridPane.columnIndex="1"
+                  GridPane.halignment="CENTER">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="ушел"/>
+                    <String fx:value="полетел"/>
+                    <String fx:value="побежал"/>
+                    <String fx:value="залез"/>
+                    <String fx:value="уполз"/>
+                    <String fx:value="упрыгал"/>
+                    <String fx:value="умчался"/>
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <ComboBox fx:id="thirdPhrase" prefHeight="25.0" prefWidth="140.0" GridPane.columnIndex="2"
+                  GridPane.halignment="RIGHT">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="в кусты"/>
+                    <String fx:value="на дискотеку"/>
+                    <String fx:value="домой"/>
+                    <String fx:value="за пивом"/>
+                    <String fx:value="на Чукотку"/>
+                    <String fx:value="по грибы"/>
+                    <String fx:value="на охоту"/>
+                </FXCollections>
+            </items>
+        </ComboBox>
+        <TextArea fx:id="textOut" editable="false" prefHeight="19.0" prefWidth="119.0" GridPane.columnSpan="3" GridPane.rowIndex="1"
+                  GridPane.rowSpan="3">
+            <font>
+                <Font size="14.0"/>
+            </font>
+            <GridPane.margin>
+                <Insets bottom="15.0" left="15.0" right="15.0"/>
+            </GridPane.margin>
+        </TextArea>
+        <Button alignment="CENTER" maxHeight="35.0" maxWidth="135.0" mnemonicParsing="false" onAction="#addPhrase"
+                text="Добавить фразу" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="2"
+                GridPane.valignment="TOP"/>
+        <Button maxHeight="35.0" maxWidth="135.0" mnemonicParsing="false" onAction="#close" text="Закрыть"
+                GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="3" GridPane.valignment="TOP"/>
+    </children>
+    <opaqueInsets>
+        <Insets/>
+    </opaqueInsets>
+</GridPane>
